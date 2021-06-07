@@ -1,0 +1,37 @@
+/* Provide sufficient contrast against white background */
+@import "~@fontsource/ubuntu";
+
+a {
+    color: #5D6E97;
+}
+
+code {
+  color: #E01A76;
+}
+
+body {
+    font-family: Ubuntu;
+}
+
+.buttonMS {
+    background: #4A9DFF;
+    border-radius: 10px;
+}
+.tableMS {
+    background: #FFFFFF;
+    box-shadow: 4px 0px 10px rgba(93, 109, 151, 0.1);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D6D97;
+}
+
+.tableMS-header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D6D97;
+}
